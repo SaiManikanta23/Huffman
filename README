@@ -7,7 +7,7 @@ It has an input file sample1.txt at Assignment03_Part02_SaiManikanta/src/sample1
 i.e “SaiManikanta”
 I’ve provided sample output files for our given input i.e hpc file and output text file
 We have hpc file at the same level i.e at Assignment03_Part02_SaiManikanta/src/Sample1_Huffman.hpc.
-We have final output text file at same level i.e. at Assignment03_Part02_Joseph_Deepika/src/Sample1_final_Recheck.txt.
+We have final output text file at same level i.e. at Assignment03_Part02_SaiManikanta/src/Sample1_final_Recheck.txt.
 If we are running in eclipse, directly run the Encode.java file directly as java application. 
 But make sure the input file is at project level.
 Note:
