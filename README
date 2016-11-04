@@ -1,0 +1,41 @@
+This program was written in java
+File Description:
+It has total of 10 files inside com.sample.huffman package i.e 
+Decode.java, decodeFile.java, Encode.java, encodeFile.java, fileReader.java, FrequencyMeasure.java, huffmanImp.java, huffmanTple.java, 
+Node.java, WriteFileWorker.java
+It has an input file sample1.txt at Assignment03_Part02_SaiManikanta/src/sample1.txt where I have given input as my name
+i.e “SaiManikanta”
+I’ve provided sample output files for our given input i.e hpc file and output text file
+We have hpc file at the same level i.e at Assignment03_Part02_SaiManikanta/src/Sample1_Huffman.hpc.
+We have final output text file at same level i.e. at Assignment03_Part02_Joseph_Deepika/src/Sample1_final_Recheck.txt.
+If we are running in eclipse, directly run the Encode.java file directly as java application. 
+But make sure the input file is at project level.
+Note:
+1.	If we want to change the output file name or location to output the hpc or final file, 
+we can do that my changing the location in Encode.java and Decode.java files, Please check the comments where I’ve mentioned,
+where we can change the path
+2.	If we want to give an different input file, 
+either we can directly paste the input file at src level as mentioned above or we can change the location of the input file 
+as mentioned in the above point or we can directly change the text in our input file i.e. Sample1.txt
+Steps for Execution:
+1.	Go to directory where the files are residing
+Ex: cd directory_name and then go to project directory cd Huffman
+2.	Now go into the package to compile all java files, use the following command by command prompt for going into the package directory
+and for compiling all java files.
+Ex: let’s say now we are in Assignment03_Part02_SaiManikanta folder then
+Now using command prompt type the following command.
+D:\Assignment03_Part02_SaiManikanta>  cd src/com/sample/huffman
+With the above command we go into package where all java files are present, now we compile them as follows:
+D:\ Assignment03_Part02_SaiManikanta\src\com\sample\huffman> javac *.java
+This compiles all java files.
+3.	Now for executing the program go back to main project directory i.e at source level of project as we have our input file there, 
+and also because one file is related to another.
+Ex: use cd .. to go back
+Once we are at src level, now execute the program as follows
+D:\src> java com.sample.huffman.Encode
+This executes the program.
+
+
+4.	The output files are located at directory of src i.e. Assignment03_Part02_SaiManikanta\src\Sample1_final_Recheck.txt
+and Assignment03_Part02_SaiManikanta\src\Sample1_Huffman.hpc
+
